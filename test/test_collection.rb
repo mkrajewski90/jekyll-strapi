@@ -1,11 +1,7 @@
 require 'jekyll'
-require 'jekyll/strapi/strapihttp'
-require 'jekyll/strapi/collection'
-require 'jekyll/strapi/collection_permalink'
-require 'jekyll/strapi/drops'
-require 'jekyll/tags/strapiimagefilter'
+
+require "jekyll-strapi-4"
 require "test/unit"
-require 'jekyll/tags/strapiimagefilter'
 require 'liquid/template'
 
 ##
